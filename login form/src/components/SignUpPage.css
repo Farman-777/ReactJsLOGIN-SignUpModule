@@ -1,0 +1,90 @@
+body{
+  background-color:#07386c;
+}
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+  height: 500px;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 180px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px black;
+  background-color: #fff;
+}
+
+.container{
+  background-color: #0555a9;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%; /* Child elements should take up the full width of the container */
+}
+
+#Signuplabel {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 12px black
+}
+
+#input , .SignInput {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 2px 2px 12px black;
+}
+
+#SignupButton {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid white;
+  background-color: #007bff;
+  box-shadow: 2px 2px 12px black;
+  cursor: pointer;
+}
+
+#SignupButton:hover {
+  background-color: #054385;
+  border: 1px solid white;
+  width: 55%;
+
+}
+
+/* i did some changes for improving css */
+.confirmedError {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  font-size: 16px;
+  margin: 0.5rem;
+  text-shadow: 2px 2px 12px black;
+
+}
+

@@ -1,0 +1,80 @@
+
+.containerBox{
+    display: flex;
+    /* align-items used to keep items in center but top mid direction */
+    flex-direction: column;
+    /* align-items used to keep items in center but top left direction */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* border: 1px solid red ; */
+    background-color: rgb(9, 76, 3);
+    box-shadow: 0 0 10px black;
+}
+
+.forgetSubmit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+    background-color: rgb(9, 126, 3);
+    box-shadow: 10px 10px 15px black;
+    /* padding: 10px; */
+    /* margin-top: 100px; */
+}
+.forgetSubmit h1{
+    
+    font-weight: bold;
+    text-shadow: 1px 10px 10px black;
+}
+.contentBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border: 1px solid white; */
+    margin: 10px;
+    color: white;
+    margin-top: -15px;
+}
+
+.containerBox label{
+    margin: 10px 10px 16px 75px;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 10px 10px black;
+}
+
+.forgetInput{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px black;
+    border: none;
+}
+.forgetInput:focus{
+    outline: none;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 18px;
+}
+.forgetSubmit button{
+    color: white;
+    background-color: rgb(7, 7, 243);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100px;
+    border-radius: 16px;
+    text-shadow: 0px 0px 10px black;
+    box-shadow: 10px 10px 15px black;
+    border: 1px solid white;
+    /* margin: 10px; */
+}
+.forgetSubmit button:hover{
+cursor: pointer;
+background-color: rgb(15, 15, 122);
+}
